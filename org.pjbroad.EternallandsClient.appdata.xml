@@ -6,10 +6,24 @@
 	<summary>Eternal Lands is a free to play, graphical MMORPG</summary>
 	<description>
 		<p>
-	Eternal Lands is a free to play, graphical MMORPG (massively-multi-player
-	online role-playing game).  Different from other role-playing games, there are
-	no fixed classes so you can improve any of the many skills.  There is a choice
-	of several character races but all are equal.
+		Eternal Lands is a free 3D fantasy MMORPG (massively multiplayer online role playing game)
+		that can be played on Windows, Android, Linux and OSX.
+		</p>
+		<p>
+		There are 12 skills in the game: Attack, Defense, Harvest, Alchemy, Magic, Potion,
+		Summoning, Manufacturing, Crafting, Engineering, Tailoring and Ranging.  There are no fixed
+		class restrictions, so you can develop your character in any way you wish.
+		</p>
+		<p>
+		You, as a player, determine exactly how you develop your character. If you make mistakes,
+		or decide to change or adjust your build, you can do so.  Eternal Lands is not just about
+		combat. Many players focus on more peaceful activities such as collecting resources,
+		creating items, summoning monsters and so on. But if you like combat, there is plenty of it
+		as well, both PvP and PvE.
+		</p>
+		<p>
+		Eternal Lands is owned and run by Radu Privantu. This package is built and maintained by
+		one of the client developers known in game as bluap.
 		</p>
 	</description>
 	<releases>
@@ -29,10 +43,14 @@
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>QPL-1.0 and LicenseRef-proprietary</project_license>
 	<url type="homepage">http://www.eternal-lands.com/</url>
+	<url type="help">http://www.eternal-lands.com/forum/index.php?/forum/103-help-and-information</url>
+	<url type="bugtracker">https://github.com/raduprv/Eternal-Lands/issues</url>
 	<categories>
 		<category>Game</category>
 		<category>MMORPG</category>
-		<category>Role Playing</category>
+	​	<category>Roleplaying</category>
+		<category>Adventure</category>
+		<category>Fantasy</category>
 	</categories>
 	<update_contact>el.flatpak@twinmoons.org.uk</update_contact>
 	<content_rating type="oars-1.0">
