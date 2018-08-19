@@ -62,7 +62,7 @@
 			"name": "client",
 			"buildsystem": "simple",
 			"build-commands": [
-					"make -f Makefile.linux release PLATFORM=\"\" -j $FLATPAK_BUILDER_N_JOBS",
+					"make -f Makefile.linux release PLATFORM=\"\" EXE=el.linux.bin -j $FLATPAK_BUILDER_N_JOBS",
 					"install el.linux.bin /app/bin"
 			],
 			"sources": [
