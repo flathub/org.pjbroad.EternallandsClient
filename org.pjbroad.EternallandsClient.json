@@ -69,11 +69,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/raduprv/Eternal-Lands",
-					"tag": "1.9.5.2"
-				},
-				{
-					"type": "patch",
-					"path": "client-patch"
+					"tag": "1.9.5.3"
 				}
 			]
 		},
