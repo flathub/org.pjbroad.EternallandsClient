@@ -5,7 +5,7 @@
 	"runtime-version": "1.6",
 	"command": "launcher.sh",
 	"finish-args": [
-		"--share=ipc",
+		"--share=all",
 		"--socket=x11",
 		"--socket=wayland",
 		"--socket=pulseaudio",
