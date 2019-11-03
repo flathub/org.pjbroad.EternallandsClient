@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "1.6",
+	"runtime-version": "18.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -60,16 +60,20 @@
 
 		{
 			"name": "client",
-			"buildsystem": "simple",
+			"buildsystem": "cmake",
+			"config-opts": [
+				"-DCMAKE_BUILD_TYPE=Release",
+				"-DEXEC=el.linux.bin"
+			],
+			"no-make-install": true,
 			"build-commands": [
-					"make -f Makefile.linux release PLATFORM=\"\" EXE=el.linux.bin -j $FLATPAK_BUILDER_N_JOBS",
 					"install el.linux.bin /app/bin"
 			],
 			"sources": [
 				{
 					"type": "git",
 					"url": "https://github.com/raduprv/Eternal-Lands",
-					"tag": "1.9.5.3"
+					"tag": "1.9.5.4"
 				}
 			]
 		},
@@ -124,8 +128,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.2/el_195_1_data_files.zip",
-					"sha256": "1c00c5252dd175d29ec935187587ce0867182b04e99c9e54dde26ca77f3f7501"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.4/el_195_p4_data_files.zip",
+					"sha256": "9391d4b012e1a393d841e41c54dc7c6efe1ac915eb1c6b6a1fd5bf24e440c7b8"
 				}
 			]
 		},
