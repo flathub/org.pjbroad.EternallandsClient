@@ -23,10 +23,7 @@
 	],
 
 	"modules": [
-		"shared-modules/glu/glu-9.0.0.json",
-		"shared-modules/SDL/SDL-1.2.15.json",
-		"shared-modules/SDL/SDL_net-1.2.8.json",
-		"shared-modules/SDL/SDL_image-1.2.12.json",
+		"shared-modules/glu/glu-9.json",
 
 		{
 			"name": "libpng",
@@ -73,7 +70,7 @@
 				{
 					"type": "git",
 					"url": "https://github.com/raduprv/Eternal-Lands",
-					"tag": "1.9.5.6"
+					"tag": "1.9.5.7"
 				}
 			]
 		},
@@ -128,8 +125,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.4/el_195_p4_data_files.zip",
-					"sha256": "9391d4b012e1a393d841e41c54dc7c6efe1ac915eb1c6b6a1fd5bf24e440c7b8"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.7/el_195_p7_data_files.zip",
+					"sha256": "32fc28333058955f1b1c11e21ee514d9596743ee6a3628c3bbbba2e4de7d533f"
 				}
 			]
 		},
