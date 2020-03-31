@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "18.08",
+	"runtime-version": "19.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -95,7 +95,7 @@
 			"buildsystem": "simple",
 			"build-commands": [
 					"mkdir -p /app/share/metainfo/ /app/share/icons/hicolor/128x128/apps/ /app/share/applications/",
- 					"install -Dm644 org.pjbroad.EternallandsClient.appdata.xml /app/share/metainfo/",
+ 					"install -Dm644 org.pjbroad.EternallandsClient.metainfo.xml /app/share/metainfo/",
  					"install -Dm644 org.pjbroad.EternallandsClient.png /app/share/icons/hicolor/128x128/apps/",
 					"install -Dm644 org.pjbroad.EternallandsClient.desktop /app/share/applications/"
 			],
@@ -110,7 +110,7 @@
 				},
 				{
 					"type": "file",
-					"path": "org.pjbroad.EternallandsClient.appdata.xml"
+					"path": "org.pjbroad.EternallandsClient.metainfo.xml"
 				}
 			]
 		},
