@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "18.08",
+	"runtime-version": "19.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -110,7 +110,7 @@
 				},
 				{
 					"type": "file",
-					"path": "org.pjbroad.EternallandsClient.appdata.xml"
+					"path": "org.pjbroad.EternallandsClient.metainfo.xml"
 				}
 			]
 		},
