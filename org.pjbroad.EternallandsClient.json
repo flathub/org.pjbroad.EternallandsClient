@@ -60,7 +60,10 @@
 			"buildsystem": "cmake",
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
-				"-DEXEC=el.linux.bin"
+				"-DEXEC=el.linux.bin",
+				"-DLOCAL_NLOHMANN_JSON=On",
+				"-DTTF=On",
+				"-DVERSION_PREFIX=1.9.5"
 			],
 			"no-make-install": true,
 			"build-commands": [
@@ -69,8 +72,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"url": "https://github.com/raduprv/Eternal-Lands",
-					"tag": "1.9.5.8"
+					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
 		},
@@ -125,8 +127,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.7/el_195_p7_data_files.zip",
-					"sha256": "32fc28333058955f1b1c11e21ee514d9596743ee6a3628c3bbbba2e4de7d533f"
+					"url": "https://twinmoons.org.uk/el/git/el_data_20210307.zip",
+					"sha256": "aab87cdc50867011fae28bf5bce802cd707d53e526f13275cff36cad396992ee"
 				}
 			]
 		},
@@ -141,8 +143,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.2/eternallands-sound_1.9.4.zip",
-					"sha256": "f5c79f5eb3e890eb14af822bcbfa6c18781929daf29c27c26b4a466cba7c64b2"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.8/eternallands-sound_1.9.5-1.zip",
+					"sha256": "ba3fc54f8e52f09937126ea38f66f7290764a8137480afd1c32a1cf5b65e8ecd"
 				}
 			]
 		},
