@@ -61,7 +61,8 @@
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
-				"-DLOCAL_NLOHMANN_JSON=On"
+				"-DLOCAL_NLOHMANN_JSON=On",
+				"-DVERSION_PREFIX=1.9.5"
 			],
 			"no-make-install": true,
 			"build-commands": [
@@ -70,8 +71,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"url": "https://github.com/raduprv/Eternal-Lands",
-					"branch": "stable_snap_build"
+					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
 		},
