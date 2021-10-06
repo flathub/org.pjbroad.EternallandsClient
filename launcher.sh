@@ -3,6 +3,7 @@
 datadir=/app/data
 userdir=~/.elc
 serverfile=servers.lst
+defserver=default_server_id.txt
 inifile=el.ini
 exename=/app/bin/el.linux.bin
 browser=xdg-open
@@ -16,21 +17,28 @@ fi
 
 if [ -z "$1" ]
 then
-	config="main"
+	if [ -r $userdir/$defserver ]
+	then
+		config="$(cat $userdir/$defserver)"
+	else
+		config="main"
+	fi
 else
 	config="$1"
 fi
 
-mkdir -p $userdir/$config || exit
+configdir="$(grep ^${config} $userdir/$serverfile | awk {'print $2'})"
+mkdir -p $userdir/$configdir || exit
 
-if [ ! -r $userdir/$config/$inifile ]
+if [ ! -r $userdir/$configdir/$inifile ]
 then
-	cp -p $datadir/$inifile $userdir/$config/ || exit
+	cp -p $datadir/$inifile $userdir/$configdir/ || exit
 fi
+chmod +wr $userdir/$configdir/$inifile
 
 # if no TTF specified, or not a valid path, try to override
 override_ttf=false
-fft_dir_line="$(grep "^#ttf_directory" $userdir/$config/$inifile)"
+fft_dir_line="$(grep "^#ttf_directory" $userdir/$configdir/$inifile)"
 if [ -z "$fft_dir_line" ]
 then
 	override_ttf=true
