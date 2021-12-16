@@ -73,8 +73,7 @@
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
-				"-DLOCAL_NLOHMANN_JSON=On",
-				"-DVERSION_PREFIX=1.9.5"
+				"-DLOCAL_NLOHMANN_JSON=On"
 			],
 			"no-make-install": true,
 			"build-commands": [
@@ -83,6 +82,7 @@
 			"sources": [
 				{
 					"type": "git",
+					"tag": "1.9.6.0",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
@@ -138,8 +138,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.9-1/eternallands-data_1.9.5.9-1.zip",
-					"sha256": "00f105ce44998b939bb92361c113961f2220afa0a3b21e53beed35968ae23ae4"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.0/eternallands-data_1.9.6.0.zip",
+					"sha256": "9669651e78c548a6b1fd16b515dd21cb7a8c5f8edbf955af4df6f5066f3d1b1b"
 				}
 			]
 		},
