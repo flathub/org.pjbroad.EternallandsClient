@@ -82,7 +82,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "1.9.6.0",
+					"tag": "1.9.6.0-1",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
