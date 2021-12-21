@@ -23,7 +23,19 @@
 	],
 
 	"modules": [
-		"shared-modules/glu/glu-9.json",
+
+		{
+			"name": "libglu",
+			"config-opts": [ "--disable-static" ],
+			"cleanup": [ "/bin", "/share" ],
+			"sources": [
+				{
+					"type": "archive",
+					"url": "https://mesa.freedesktop.org/archive/glu/glu-9.0.2.tar.gz",
+					"sha256": "24effdfb952453cc00e275e1c82ca9787506aba0282145fff054498e60e19a65"
+				}
+			]
+		},
 
 		{
 			"name": "libpng",
@@ -126,8 +138,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.9-1/eternallands-data_1.9.5.9-1.zip",
-					"sha256": "00f105ce44998b939bb92361c113961f2220afa0a3b21e53beed35968ae23ae4"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.0/eternallands-data_1.9.6.0.zip",
+					"sha256": "9669651e78c548a6b1fd16b515dd21cb7a8c5f8edbf955af4df6f5066f3d1b1b"
 				}
 			]
 		},
