@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "20.08",
+	"runtime-version": "21.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -73,6 +73,7 @@
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
+				"-DVERSION_PREFIX=1.9.6.0",
 				"-DLOCAL_NLOHMANN_JSON=On"
 			],
 			"no-make-install": true,
@@ -82,7 +83,6 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "1.9.6.0-1",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
