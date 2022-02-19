@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "21.08",
+	"runtime-version": "20.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -172,6 +172,25 @@
 					"type": "archive",
 					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.9-1/eternallands-music_1.9.5.9.zip",
 					"sha256": "1ea4de25081034ac684aaebf127ab6ca8524ba5367532863d84d63837dd631ec"
+				}
+			]
+		},
+
+		{
+			"name": "data-patch",
+			"buildsystem": "simple",
+			"build-commands": [
+					"mkdir -p /app/data/sound/ /app/data/maps/ /app/data/shaders/",
+					"mv snds_client.xml /app/data/sound/",
+					"mv guildmap_lion.elm.gz /app/data/maps/",
+					"mv new_water.* /app/data/shaders/",
+					"mv item_extra_info.txt /app/data/"
+			],
+			"sources": [
+				{
+					"type": "archive",
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.0-p1-rc1/eternallands-data-patch-1.9.6.0-1.zip",
+					"sha256": "6c9d157edf6fc67071d0e6e0f94d8bbd94b8132ab2c9831a5e5c22273410bce7"
 				}
 			]
 		}
