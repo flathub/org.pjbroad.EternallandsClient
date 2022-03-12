@@ -28,7 +28,7 @@
 	</description>
 	<translation/>
 	<releases>
-		<release version="1.9.6.0-dev" date="2022-02-26"/>
+		<release version="1.9.6.1" date="2022-03-12"/>
 	</releases>
 	<screenshots>
 		<screenshot>
@@ -42,7 +42,8 @@
 		</screenshot>
 	</screenshots>
 	<metadata_license>CC0-1.0</metadata_license>
-	<project_license>QPL-1.0 and LicenseRef-proprietary</project_license>
+	<project_license>QPL-1.0</project_license>
+	<project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/raduprv/Eternal-Lands/master/eternal_lands_license.txt</project_license>
 	<url type="homepage">http://www.eternal-lands.com/</url>
 	<url type="help">http://www.eternal-lands.com/forum/index.php?/forum/103-help-and-information</url>
 	<url type="bugtracker">https://github.com/raduprv/Eternal-Lands/issues</url>
