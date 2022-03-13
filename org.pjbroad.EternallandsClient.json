@@ -82,8 +82,8 @@
 			"sources": [
 				{
 					"type": "git",
-					"url": "https://github.com/raduprv/Eternal-Lands",
-					"branch": "stable_snap_build"
+					"tag": "1.9.6.1",
+					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
 		},
@@ -138,8 +138,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.0/eternallands-data_1.9.6.0.zip",
-					"sha256": "9669651e78c548a6b1fd16b515dd21cb7a8c5f8edbf955af4df6f5066f3d1b1b"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.1/eternallands-data_1.9.6.1.zip",
+					"sha256": "6dd8b997648f2d1c30a99614533aa495c7ebda3210b19f779497a71b3825822f"
 				}
 			]
 		},
@@ -154,8 +154,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.5.9-1/eternallands-sound_1.9.5.9.zip",
-					"sha256": "13a030bf5aca4e9e881707216f269df5826ff00345c93afac94a3f58455af542"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.1/eternallands-sound_1.9.6.1.zip",
+					"sha256": "e8dc68698b42256cb3c69935f892336e2c5de4002b9bef2c21af2124a5274e3f"
 				}
 			]
 		},
