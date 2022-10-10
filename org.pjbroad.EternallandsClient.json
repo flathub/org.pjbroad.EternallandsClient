@@ -18,8 +18,7 @@
 		"*.la",
 		"*.a",
 		"/include",
-		"/lib/pkgconfig",
-		"/lib/debug"
+		"/lib/pkgconfig"
 	],
 
 	"modules": [
