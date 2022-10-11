@@ -6,7 +6,7 @@
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
-		"--socket=x11",
+		"--socket=fallback-x11",
 		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--share=network",
@@ -18,8 +18,7 @@
 		"*.la",
 		"*.a",
 		"/include",
-		"/lib/pkgconfig",
-		"/lib/debug"
+		"/lib/pkgconfig"
 	],
 
 	"modules": [
@@ -83,6 +82,7 @@
 			"sources": [
 				{
 					"type": "git",
+					"tag": "4e8d05d27935a6fdc108aeb0792046a466cf183c",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
