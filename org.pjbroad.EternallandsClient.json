@@ -2,11 +2,11 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "22.08",
+	"runtime-version": "21.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
-		"--socket=fallback-x11",
+		"--socket=x11",
 		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--share=network",
