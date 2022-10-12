@@ -6,7 +6,7 @@
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
-		"--socket=x11",
+		"--socket=fallback-x11",
 		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--share=network",
@@ -18,8 +18,7 @@
 		"*.la",
 		"*.a",
 		"/include",
-		"/lib/pkgconfig",
-		"/lib/debug"
+		"/lib/pkgconfig"
 	],
 
 	"modules": [
