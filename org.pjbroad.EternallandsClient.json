@@ -6,7 +6,7 @@
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
-		"--socket=fallback-x11",
+		"--socket=x11",
 		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--share=network",
@@ -72,7 +72,7 @@
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
-				"-DVERSION_PREFIX=1.9.6.1",
+				"-DVERSION_PREFIX=1.9.6",
 				"-DLOCAL_NLOHMANN_JSON=On"
 			],
 			"no-make-install": true,
