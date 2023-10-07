@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "21.08",
+	"runtime-version": "22.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -43,8 +43,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://download.sourceforge.net/libpng/libpng-1.6.37.tar.gz",
-					"sha256": "daeb2620d829575513e35fecc83f0d3791a620b9b93d800b763542ece9390fb4"
+					"url": "https://download.sourceforge.net/libpng/libpng-1.6.40.tar.gz",
+					"sha256": "8f720b363aa08683c9bf2a563236f45313af2c55d542b5481ae17dd8d183bb42"
 				}
 			]
 		},
