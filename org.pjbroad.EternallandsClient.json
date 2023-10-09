@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "21.08",
+	"runtime-version": "22.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -82,7 +82,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "d2a16ab9be3a5feeeb4db84627c6da2a87bf5153",
+					"tag": "0a49c5e439f050e567884dcf12c9843ec9c55dab",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
