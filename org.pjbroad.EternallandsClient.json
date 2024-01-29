@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "22.08",
+	"runtime-version": "23.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -25,13 +25,13 @@
 
 		{
 			"name": "libglu",
-			"config-opts": [ "--disable-static" ],
+			"buildsystem": "meson",
 			"cleanup": [ "/bin", "/share" ],
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://mesa.freedesktop.org/archive/glu/glu-9.0.2.tar.gz",
-					"sha256": "24effdfb952453cc00e275e1c82ca9787506aba0282145fff054498e60e19a65"
+					"url": "https://mesa.freedesktop.org/archive/glu/glu-9.0.3.tar.xz",
+					"sha256": "bd43fe12f374b1192eb15fe20e45ff456b9bc26ab57f0eee919f96ca0f8a330f"
 				}
 			]
 		},
@@ -43,8 +43,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://download.sourceforge.net/libpng/libpng-1.6.40.tar.gz",
-					"sha256": "8f720b363aa08683c9bf2a563236f45313af2c55d542b5481ae17dd8d183bb42"
+					"url": "https://download.sourceforge.net/libpng/libpng-1.6.41.tar.gz",
+					"sha256": "f00a11840f60616bdced9056d0f4cf2e4897697db039f15ce911704f957d3c5d"
 				}
 			]
 		},
