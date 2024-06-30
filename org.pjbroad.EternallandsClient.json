@@ -67,7 +67,7 @@
 
 		{
 			"name": "client",
-			"buildsystem": "cmake-ninja",
+			"buildsystem": "cmake",
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
