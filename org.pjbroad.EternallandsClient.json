@@ -7,7 +7,6 @@
 	"finish-args": [
 		"--share=ipc",
 		"--socket=x11",
-		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--share=network",
 		"--device=dri",
@@ -82,7 +81,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "1c76b8b96b9610411fdc9c742039ac4ba47ffec0",
+					"tag": "e2ed5495d1fb1923843012ab50038b5cf1f2a65c",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
