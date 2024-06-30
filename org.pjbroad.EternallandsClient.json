@@ -2,12 +2,11 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "22.08",
+	"runtime-version": "23.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
 		"--socket=x11",
-		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--share=network",
 		"--device=dri",
@@ -68,7 +67,7 @@
 
 		{
 			"name": "client",
-			"buildsystem": "cmake",
+			"buildsystem": "cmake-ninja",
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
@@ -82,7 +81,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "1c76b8b96b9610411fdc9c742039ac4ba47ffec0",
+					"tag": "e2ed5495d1fb1923843012ab50038b5cf1f2a65c",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
