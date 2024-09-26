@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "22.08",
+	"runtime-version": "23.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -66,8 +66,21 @@
 		},
 
 		{
+			"name": "libxml2",
+			"config-opts": [ "--disable-static" ],
+			"cleanup": [ "/bin", "/share" ],
+			"sources": [
+				{
+					"type": "archive",
+					"url": "https://download.gnome.org/sources/libxml2/2.13/libxml2-2.13.4.tar.xz",
+					"sha256": "65d042e1c8010243e617efb02afda20b85c2160acdbfbcb5b26b80cec6515650"
+				}
+			]
+		},
+
+		{
 			"name": "client",
-			"buildsystem": "cmake",
+			"buildsystem": "cmake-ninja",
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
@@ -81,7 +94,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "e2ed5495d1fb1923843012ab50038b5cf1f2a65c",
+					"tag": "d38703cb9306bdcba9aa8ede479f5aaaeee0d59d",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
