@@ -34,12 +34,15 @@
 	<screenshots>
 		<screenshot type="default">
 			<image>https://www.eternal-lands.com/forum/uploads/gallery/category_5/med_gallery_4_5_804654.png</image>
+			<caption>In-game screen-shot showing elements of the user interface.</caption>
 		</screenshot>
 		<screenshot>
 			<image>https://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_52708.jpg</image>
+			<caption>In-game screen-shot showing an epic battle against a monster.</caption>
 		</screenshot>
 		<screenshot>
 			<image>https://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_4336.jpg</image>
+			<caption>In-game screen-shot showing a player walking through a beautiful city.</caption>
 		</screenshot>
 	</screenshots>
 	<metadata_license>CC0-1.0</metadata_license>
