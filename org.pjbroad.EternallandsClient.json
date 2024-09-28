@@ -2,12 +2,11 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "22.08",
+	"runtime-version": "23.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
 		"--socket=x11",
-		"--socket=wayland",
 		"--socket=pulseaudio",
 		"--share=network",
 		"--device=dri",
@@ -67,8 +66,21 @@
 		},
 
 		{
+			"name": "libxml2",
+			"config-opts": [ "--disable-static" ],
+			"cleanup": [ "/bin", "/share" ],
+			"sources": [
+				{
+					"type": "archive",
+					"url": "https://download.gnome.org/sources/libxml2/2.9/libxml2-2.9.14.tar.xz",
+					"sha256": "60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee"
+				}
+			]
+		},
+
+		{
 			"name": "client",
-			"buildsystem": "cmake",
+			"buildsystem": "cmake-ninja",
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",

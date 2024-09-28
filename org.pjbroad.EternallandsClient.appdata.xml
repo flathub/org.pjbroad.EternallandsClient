@@ -2,8 +2,10 @@
 <component type="desktop">
 	<id>org.pjbroad.EternallandsClient</id>
 	<name>Eternal Lands</name>
-	<developer_name>Paul Broadhead</developer_name>
-	<summary>Eternal Lands is a free to play, graphical MMORPG</summary>
+	<developer id="org.pjbroad">
+		<name>Paul Broadhead</name>
+	</developer>
+	<summary>A free to play, graphical MMORPG</summary>
 	<description>
 		<p>
 		Eternal Lands is a free 3D fantasy MMORPG (massively multiplayer online role playing game)
@@ -26,32 +28,32 @@
 		one of the client developers known in game as bluap.
 		</p>
 	</description>
-	<translation/>
 	<releases>
-		<release version="1.9.6.1-1" date="2023-10-10"/>
+		<release version="1.9.6.1-2" date="2024-09-28"/>
 	</releases>
 	<screenshots>
-		<screenshot>
-			<image type="source">http://www.eternal-lands.com/forum/uploads/gallery/category_5/med_gallery_4_5_804654.png</image>
+		<screenshot type="default">
+			<image>https://www.eternal-lands.com/forum/uploads/gallery/category_5/med_gallery_4_5_804654.png</image>
+			<caption>In-game screen-shot showing elements of the user interface.</caption>
 		</screenshot>
 		<screenshot>
-			<image type="source">http://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_52708.jpg</image>
+			<image>https://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_52708.jpg</image>
+			<caption>In-game screen-shot showing an epic battle against a monster.</caption>
 		</screenshot>
 		<screenshot>
-			<image type="source">http://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_4336.jpg</image>
+			<image>https://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_4336.jpg</image>
+			<caption>In-game screen-shot showing a player walking through a beautiful city.</caption>
 		</screenshot>
 	</screenshots>
 	<metadata_license>CC0-1.0</metadata_license>
 	<project_license>QPL-1.0</project_license>
-	<url type="homepage">http://www.eternal-lands.com/</url>
-	<url type="help">http://www.eternal-lands.com/forum/index.php?/forum/103-help-and-information</url>
+	<url type="homepage">https://www.eternal-lands.com/</url>
+	<url type="help">https://www.eternal-lands.com/forum/index.php?/forum/103-help-and-information</url>
 	<url type="bugtracker">https://github.com/raduprv/Eternal-Lands/issues</url>
+	<url type="vcs-browser">https://github.com/raduprv/Eternal-Lands</url>
 	<categories>
-		<category>Games</category>
-		<category>Role Playing</category>
-		<category>MMORPG</category>
-		<category>Adventure</category>
-		<category>Fantasy</category>
+		<category>Game</category>
+		<category>RolePlaying</category>
 	</categories>
 	<update_contact>el.flatpak@twinmoons.org.uk</update_contact>
 	<content_rating type="oars-1.0">
@@ -62,4 +64,5 @@
 		<content_attribute id="social-chat">intense</content_attribute>
 		<content_attribute id="social-info">mild</content_attribute>
 	</content_rating>
+	<launchable type="desktop-id">org.pjbroad.EternallandsClient.desktop</launchable>
 </component>
