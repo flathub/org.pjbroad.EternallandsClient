@@ -28,18 +28,35 @@
 		one of the client developers known in game as bluap.
 		</p>
 	</description>
+	<branding>
+		<color type="primary" scheme_preference="light">#ffe4d1</color>
+		<color type="primary" scheme_preference="dark">#381902</color>
+	</branding>
 	<releases>
-		<release version="1.9.6 dev" date="2024-09-26"/>
+		<release version="1.9.6 beta" date="2024-09-28">
+			<url type="details">https://github.com/raduprv/Eternal-Lands/commits/master</url>
+			<description>
+				<p>Release description</p>
+				<ul>
+					<li>Use latest Eternal-Lands source.</li>
+					<li>Updated to use runtime 23.08.</li>
+					<li>Updated flatpak Metainfo to latest standards.</li>
+				</ul>
+			</description>
+		</release>
 	</releases>
 	<screenshots>
 		<screenshot type="default">
 			<image>https://www.eternal-lands.com/forum/uploads/gallery/category_5/med_gallery_4_5_804654.png</image>
+			<caption>In-game screen-shot showing elements of the user interface.</caption>
 		</screenshot>
 		<screenshot>
 			<image>https://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_52708.jpg</image>
+			<caption>In-game screen-shot showing an epic battle against a monster.</caption>
 		</screenshot>
 		<screenshot>
 			<image>https://www.eternal-lands.com/forum/uploads/1218074388/med_gallery_4_16_4336.jpg</image>
+			<caption>In-game screen-shot showing a player walking through a beautiful city.</caption>
 		</screenshot>
 	</screenshots>
 	<metadata_license>CC0-1.0</metadata_license>
