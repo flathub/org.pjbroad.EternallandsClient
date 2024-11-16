@@ -71,7 +71,8 @@
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
-				"-DLOCAL_NLOHMANN_JSON=On"
+				"-DLOCAL_NLOHMANN_JSON=On",
+				"-DVERSION_PREFIX=1.9.6"
 			],
 			"no-make-install": true,
 			"build-commands": [
@@ -80,7 +81,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "1.9.7.0-1",
+					"tag": "b5f6a8e62acb894fa469cc61e1859514182d692d",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
@@ -136,8 +137,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://twinmoons.org.uk/el/rel/197/eternallands-data_1.9.7.zip",
-					"sha256": "2ab4d5549ee66da6bdb10bc86d9dd4ac7ca578aafb291111b330fae8d4c77f98"
+					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.1/eternallands-data_1.9.6.1.zip",
+					"sha256": "6dd8b997648f2d1c30a99614533aa495c7ebda3210b19f779497a71b3825822f"
 				}
 			]
 		},
