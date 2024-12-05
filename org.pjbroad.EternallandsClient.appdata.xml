@@ -33,12 +33,12 @@
 		<color type="primary" scheme_preference="dark">#381902</color>
 	</branding>
 	<releases>
-		<release version="1.9.6 testing" date="2024-11-24">
+		<release version="1.9.7" date="2024-12-04">
 			<url type="details">https://github.com/raduprv/Eternal-Lands/commits/master</url>
 			<description>
 				<p>Release description</p>
 				<ul>
-					<li>Latest git with 1.9.6 data, testing for the 1.9.7 release.</li>
+					<li>1.9.7 stable release.</li>
 				</ul>
 			</description>
 		</release>
