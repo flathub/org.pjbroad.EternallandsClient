@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "23.08",
+	"runtime-version": "24.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -24,13 +24,13 @@
 
 		{
 			"name": "libglu",
-			"config-opts": [ "--disable-static" ],
+			"buildsystem": "meson",
 			"cleanup": [ "/bin", "/share" ],
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://mesa.freedesktop.org/archive/glu/glu-9.0.2.tar.gz",
-					"sha256": "24effdfb952453cc00e275e1c82ca9787506aba0282145fff054498e60e19a65"
+					"url": "https://mesa.freedesktop.org/archive/glu/glu-9.0.3.tar.xz",
+					"sha256": "bd43fe12f374b1192eb15fe20e45ff456b9bc26ab57f0eee919f96ca0f8a330f"
 				}
 			]
 		},
@@ -42,8 +42,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://download.sourceforge.net/libpng/libpng-1.6.40.tar.gz",
-					"sha256": "8f720b363aa08683c9bf2a563236f45313af2c55d542b5481ae17dd8d183bb42"
+					"url": "https://download.sourceforge.net/libpng/libpng-1.6.44.tar.gz",
+					"sha256": "8c25a7792099a0089fa1cc76c94260d0bb3f1ec52b93671b572f8bb61577b732"
 				}
 			]
 		},
@@ -66,19 +66,6 @@
 		},
 
 		{
-			"name": "libxml2",
-			"config-opts": [ "--disable-static" ],
-			"cleanup": [ "/bin", "/share" ],
-			"sources": [
-				{
-					"type": "archive",
-					"url": "https://download.gnome.org/sources/libxml2/2.9/libxml2-2.9.14.tar.xz",
-					"sha256": "60d74a257d1ccec0475e749cba2f21559e48139efba6ff28224357c7c798dfee"
-				}
-			]
-		},
-
-		{
 			"name": "client",
 			"buildsystem": "cmake-ninja",
 			"config-opts": [
@@ -93,7 +80,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "1.9.6.1",
+					"tag": "1.9.7.0-4",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
@@ -149,8 +136,8 @@
 			"sources": [
 				{
 					"type": "archive",
-					"url": "https://github.com/raduprv/Eternal-Lands/releases/download/1.9.6.1/eternallands-data_1.9.6.1.zip",
-					"sha256": "6dd8b997648f2d1c30a99614533aa495c7ebda3210b19f779497a71b3825822f"
+					"url": "https://twinmoons.org.uk/el/rel/197/eternallands-data_1.9.7.zip",
+					"sha256": "2ab4d5549ee66da6bdb10bc86d9dd4ac7ca578aafb291111b330fae8d4c77f98"
 				}
 			]
 		},

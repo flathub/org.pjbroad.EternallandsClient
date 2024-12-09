@@ -28,8 +28,20 @@
 		one of the client developers known in game as bluap.
 		</p>
 	</description>
+	<branding>
+		<color type="primary" scheme_preference="light">#ffe4d1</color>
+		<color type="primary" scheme_preference="dark">#381902</color>
+	</branding>
 	<releases>
-		<release version="1.9.6.1-2" date="2024-09-28"/>
+		<release version="1.9.7" date="2024-12-04">
+			<url type="details">https://github.com/raduprv/Eternal-Lands/commits/master</url>
+			<description>
+				<p>Release description</p>
+				<ul>
+					<li>1.9.7 stable release.</li>
+				</ul>
+			</description>
+		</release>
 	</releases>
 	<screenshots>
 		<screenshot type="default">
