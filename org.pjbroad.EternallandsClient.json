@@ -71,7 +71,8 @@
 			"config-opts": [
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
-				"-DLOCAL_NLOHMANN_JSON=On"
+				"-DLOCAL_NLOHMANN_JSON=On",
+				"-DVERSION_PREFIX=1.9.7"
 			],
 			"no-make-install": true,
 			"build-commands": [
