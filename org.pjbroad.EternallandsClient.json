@@ -20,6 +20,12 @@
 		"/lib/pkgconfig"
 	],
 
+	"build-options": {
+		"env": {
+			"SOURCE_DATE_EPOCH": "1787414400"
+		}
+	},
+
 	"modules": [
 
 		"shared-modules/SDL2/SDL2_image.json",
