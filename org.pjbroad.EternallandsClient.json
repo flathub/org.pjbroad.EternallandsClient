@@ -27,19 +27,6 @@
 		"shared-modules/glu/glu-9.json",
 
 		{
-			"name": "libpng",
-			"config-opts": [ "--disable-static" ],
-			"cleanup": [ "/bin", "/share" ],
-			"sources": [
-				{
-					"type": "archive",
-					"url": "https://download.sourceforge.net/libpng/libpng-1.6.54.tar.gz",
-					"sha256": "472db714567391842e410090df5a37e0f5b2ec67148a3007678b0482d2ba5219"
-				}
-			]
-		},
-
-		{
 			"name": "libcal3d",
 			"config-opts": [ "--disable-static" ],
 			"cleanup": [ "/bin", "/share" ],
@@ -63,7 +50,8 @@
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
 				"-DLOCAL_NLOHMANN_JSON=On",
-				"-DVERSION_PREFIX=1.9.7"
+				"-DVERSION_PREFIX=1.9.7",
+				"-DVERSION_TAG=2026-08-23 (git)"
 			],
 			"no-make-install": true,
 			"build-commands": [
@@ -72,7 +60,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "56895c00ca6c9b77fb4df23939a658d13834b975",
+					"tag": "5357134609c99e29687e9dea44d687eb7d1348f6",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]

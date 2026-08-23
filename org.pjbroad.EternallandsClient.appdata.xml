@@ -33,7 +33,7 @@
 		<color type="primary" scheme_preference="dark">#381902</color>
 	</branding>
 	<releases>
-		<release version="1.9.7 Testing" date="2026-01-17">
+		<release version="1.9.7 Testing" date="2026-08-23">
 			<url type="details">https://github.com/raduprv/Eternal-Lands/commits/master</url>
 			<description>
 				<p>Release description</p>
