@@ -2,7 +2,7 @@
 	"app-id": "org.pjbroad.EternallandsClient",
 	"runtime": "org.freedesktop.Platform",
 	"sdk": "org.freedesktop.Sdk",
-	"runtime-version": "24.08",
+	"runtime-version": "25.08",
 	"command": "launcher.sh",
 	"finish-args": [
 		"--share=ipc",
@@ -20,33 +20,17 @@
 		"/lib/pkgconfig"
 	],
 
+	"build-options": {
+		"env": {
+			"SOURCE_DATE_EPOCH": "1787414400"
+		}
+	},
+
 	"modules": [
 
-		{
-			"name": "libglu",
-			"buildsystem": "meson",
-			"cleanup": [ "/bin", "/share" ],
-			"sources": [
-				{
-					"type": "archive",
-					"url": "https://mesa.freedesktop.org/archive/glu/glu-9.0.3.tar.xz",
-					"sha256": "bd43fe12f374b1192eb15fe20e45ff456b9bc26ab57f0eee919f96ca0f8a330f"
-				}
-			]
-		},
-
-		{
-			"name": "libpng",
-			"config-opts": [ "--disable-static" ],
-			"cleanup": [ "/bin", "/share" ],
-			"sources": [
-				{
-					"type": "archive",
-					"url": "https://download.sourceforge.net/libpng/libpng-1.6.44.tar.gz",
-					"sha256": "8c25a7792099a0089fa1cc76c94260d0bb3f1ec52b93671b572f8bb61577b732"
-				}
-			]
-		},
+		"shared-modules/SDL2/SDL2_image.json",
+		"shared-modules/SDL2/SDL2_ttf.json",
+		"shared-modules/glu/glu-9.json",
 
 		{
 			"name": "libcal3d",
@@ -69,6 +53,8 @@
 			"name": "client",
 			"buildsystem": "cmake-ninja",
 			"config-opts": [
+				"-DVERSION_PREFIX=1.9.7.0",
+				"-DVERSION_TAG=6",
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
 				"-DLOCAL_NLOHMANN_JSON=On"
@@ -80,7 +66,8 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "1.9.7.0-4",
+					"tag": "stable_snap_build",
+					"commit": "815215fc06817d595ce0ad14f2645074b6aa3dd0",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
