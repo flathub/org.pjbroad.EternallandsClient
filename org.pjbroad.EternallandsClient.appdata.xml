@@ -33,12 +33,12 @@
 		<color type="primary" scheme_preference="dark">#381902</color>
 	</branding>
 	<releases>
-		<release version="1.9.7" date="2024-12-04">
+		<release version="1.9.7" date="2026-08-23">
 			<url type="details">https://github.com/raduprv/Eternal-Lands/commits/master</url>
 			<description>
 				<p>Release description</p>
 				<ul>
-					<li>1.9.7 stable release with bug fixes.</li>
+					<li>1.9.7.0-6 stable release with bug fixes.</li>
 				</ul>
 			</description>
 		</release>
