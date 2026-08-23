@@ -60,7 +60,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"tag": "5357134609c99e29687e9dea44d687eb7d1348f6",
+					"commit": "5357134609c99e29687e9dea44d687eb7d1348f6",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
