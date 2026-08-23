@@ -53,7 +53,8 @@
 			"name": "client",
 			"buildsystem": "cmake-ninja",
 			"config-opts": [
-				"-DVERSION_PREFIX=1.9.7.0-5",
+				"-DVERSION_PREFIX=1.9.7.0",
+				"-DVERSION_TAG=6",
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
 				"-DLOCAL_NLOHMANN_JSON=On"
@@ -66,7 +67,7 @@
 				{
 					"type": "git",
 					"tag": "stable_snap_build",
-					"commit": "689399693f56659a21f44483776f326783244ab2",
+					"commit": "815215fc06817d595ce0ad14f2645074b6aa3dd0",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
