@@ -53,6 +53,7 @@
 			"name": "client",
 			"buildsystem": "cmake-ninja",
 			"config-opts": [
+				"-DVERSION_PREFIX=1.9.7.0-5",
 				"-DCMAKE_BUILD_TYPE=Release",
 				"-DEXEC=el.linux.bin",
 				"-DLOCAL_NLOHMANN_JSON=On"
