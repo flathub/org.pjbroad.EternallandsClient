@@ -8,24 +8,32 @@
 	<summary>A free to play, graphical MMORPG</summary>
 	<description>
 		<p>
-		Eternal Lands is a free 3D fantasy MMORPG (massively multiplayer online role playing game)
-		that can be played on Windows, Android, Linux and OSX.
+			Eternal Lands is a free-to-play, 3D fantasy MMORPG
+			(massively multiplayer online role-playing game)
+			compatible with Windows, Android, Linux, and macOS
 		</p>
 		<p>
-		There are 12 skills in the game: Attack, Defense, Harvest, Alchemy, Magic, Potion,
-		Summoning, Manufacturing, Crafting, Engineering, Tailoring and Ranging.  There are no fixed
-		class restrictions, so you can develop your character in any way you wish.
+			The game features 12 unique skills: Attack, Defence,
+			Harvest, Alchemy, Magic, Potion, Summoning,
+			Manufacturing, Crafting, Engineering, Tailoring, and
+			Ranging. Because there are no fixed class
+			restrictions, you have total freedom to develop your
+			character however you choose.
 		</p>
 		<p>
-		You, as a player, determine exactly how you develop your character. If you make mistakes,
-		or decide to change or adjust your build, you can do so.  Eternal Lands is not just about
-		combat. Many players focus on more peaceful activities such as collecting resources,
-		creating items, summoning monsters and so on. But if you like combat, there is plenty of it
-		as well, both PvP and PvE.
+			You can easily adjust your build at any time if you
+			make a mistake or want to try a new strategy.Eternal
+			Lands goes far beyond traditional combat. Many players
+			prefer peaceful activities like harvesting resources,
+			crafting items, and summoning monsters. However, if
+			you enjoy fighting, the game offers plenty of both PvP
+			(player versus player) and PvE (player versus
+			environment) content.
 		</p>
 		<p>
-		Eternal Lands is owned and run by Radu Privantu. This package is built and maintained by
-		one of the client developers known in game as bluap.
+			The game is owned and operated by Radu Privantu, while
+			this specific package is built and maintained by
+			"bluap", one of the client developers.
 		</p>
 	</description>
 	<branding>
@@ -33,7 +41,7 @@
 		<color type="primary" scheme_preference="dark">#381902</color>
 	</branding>
 	<releases>
-		<release version="1.9.7 Testing" date="2026-08-23">
+		<release version="1.9.7 Testing" date="2026-08-29">
 			<url type="details">https://github.com/raduprv/Eternal-Lands/commits/master</url>
 			<description>
 				<p>Release description</p>

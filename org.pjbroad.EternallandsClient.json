@@ -51,7 +51,7 @@
 				"-DEXEC=el.linux.bin",
 				"-DLOCAL_NLOHMANN_JSON=On",
 				"-DVERSION_PREFIX=1.9.7",
-				"-DVERSION_TAG=2026-08-23 (git)"
+				"-DVERSION_TAG=2026-08-29 (git)"
 			],
 			"no-make-install": true,
 			"build-commands": [
@@ -60,7 +60,7 @@
 			"sources": [
 				{
 					"type": "git",
-					"commit": "5357134609c99e29687e9dea44d687eb7d1348f6",
+					"commit": "cbaf0c05cf3564e13f3a47fa9e6a7610c7774d23",
 					"url": "https://github.com/raduprv/Eternal-Lands"
 				}
 			]
